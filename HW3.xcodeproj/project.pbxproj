@@ -11,9 +11,7 @@
 		FD52A544291E5F3B0015389A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52A543291E5F3B0015389A /* ContentView.swift */; };
 		FD52A546291E5F3F0015389A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD52A545291E5F3F0015389A /* Assets.xcassets */; };
 		FD52A549291E5F3F0015389A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD52A548291E5F3F0015389A /* Preview Assets.xcassets */; };
-		FD52A553291E5F400015389A /* HW3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52A552291E5F400015389A /* HW3Tests.swift */; };
-		FD52A55D291E5F400015389A /* HW3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52A55C291E5F400015389A /* HW3UITests.swift */; };
-		FD52A55F291E5F400015389A /* HW3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52A55E291E5F400015389A /* HW3UITestsLaunchTests.swift */; };
+		FDC1D034291E845700F73628 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC1D033291E845700F73628 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +34,12 @@
 /* Begin PBXFileReference section */
 		FD52A53E291E5F3B0015389A /* HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD52A541291E5F3B0015389A /* HW3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3App.swift; sourceTree = "<group>"; };
-		FD52A543291E5F3B0015389A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD52A543291E5F3B0015389A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		FD52A545291E5F3F0015389A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD52A548291E5F3F0015389A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD52A54E291E5F400015389A /* HW3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD52A552291E5F400015389A /* HW3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3Tests.swift; sourceTree = "<group>"; };
 		FD52A558291E5F400015389A /* HW3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD52A55C291E5F400015389A /* HW3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3UITests.swift; sourceTree = "<group>"; };
-		FD52A55E291E5F400015389A /* HW3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDC1D033291E845700F73628 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				FD52A540291E5F3B0015389A /* HW3 */,
-				FD52A551291E5F400015389A /* HW3Tests */,
-				FD52A55B291E5F400015389A /* HW3UITests */,
 				FD52A53F291E5F3B0015389A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +90,7 @@
 			children = (
 				FD52A541291E5F3B0015389A /* HW3App.swift */,
 				FD52A543291E5F3B0015389A /* ContentView.swift */,
+				FDC1D033291E845700F73628 /* Data.swift */,
 				FD52A545291E5F3F0015389A /* Assets.xcassets */,
 				FD52A547291E5F3F0015389A /* Preview Content */,
 			);
@@ -108,23 +103,6 @@
 				FD52A548291E5F3F0015389A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FD52A551291E5F400015389A /* HW3Tests */ = {
-			isa = PBXGroup;
-			children = (
-				FD52A552291E5F400015389A /* HW3Tests.swift */,
-			);
-			path = HW3Tests;
-			sourceTree = "<group>";
-		};
-		FD52A55B291E5F400015389A /* HW3UITests */ = {
-			isa = PBXGroup;
-			children = (
-				FD52A55C291E5F400015389A /* HW3UITests.swift */,
-				FD52A55E291E5F400015389A /* HW3UITestsLaunchTests.swift */,
-			);
-			path = HW3UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD52A544291E5F3B0015389A /* ContentView.swift in Sources */,
+				FDC1D034291E845700F73628 /* Data.swift in Sources */,
 				FD52A542291E5F3B0015389A /* HW3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD52A553291E5F400015389A /* HW3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD52A55D291E5F400015389A /* HW3UITests.swift in Sources */,
-				FD52A55F291E5F400015389A /* HW3UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
